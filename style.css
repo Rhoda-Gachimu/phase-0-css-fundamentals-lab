@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+ text-align: center;
+}
+nav{
+  text-align: center;
+  
+}
+#about{
+  background-color: grey;
+}
+#properties{
+  background-color: grey;
+}
+#estate{
+  background-color: grey;
+}
+#market{
+  background-color: grey;
+}
+#contact{
+  background-color: grey;
+}
+#hud{
+  background-color: grey;
+}
+
+figure{
+  margin-left: 25%;
+}
+#caption{
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  
+}
+.details{
+  /* text-align: center; */
+  width: 800px;
+  text-align: center;
+  margin-left: 27.5%;
+}
+
+.footer{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px auto;
+  gap: 30px;
+  background-color: red;
+  height: 150px;
+}
+.contact{
+  margin-left: 50%;
+}
